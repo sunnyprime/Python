@@ -4,6 +4,14 @@
 
 ### Sample Code only:-
 
+| CODE | PROPERTY |
+| :---: | :---: |
+| import os | imort the directory |
+| os.listdir() | show list of os directory |
+| dir(os) | shows the directory of os |
+| os.__dir__ | shows the directory of files
+| help(glob2) | show the help of package |
+
 
 #### Output
 
