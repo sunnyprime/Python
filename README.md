@@ -86,3 +86,85 @@ Welcome  prime
 >>> set
 {1, 2, 3, 5, 6, 8}
 ```
+
+#### Condition
+
+```
+a = 200
+b = 33
+if b > a:
+  print("b is greater than a")
+elif a == b:
+  print("a and b are equal")
+else:
+  print("a is greater than b")
+
+#######
+a and b are equal
+```
+
+#### While_Loop
+
+```
+i = 0
+while i < 6:
+  i += 1 
+  if i == 3:
+    continue
+  print(i)
+
+#####
+
+1
+2
+4
+5
+6
+```
+
+#### For_loop
+
+```
+for x in range(6):
+  print(x) 
+  
+####
+0
+1
+2
+3
+4
+5
+```
+#### Function
+```
+def my_function():
+  print("Hello from a function")
+
+my_function()
+
+#####
+Hello from a function
+```
+
+#### Lambda function
+
+```
+x = lambda a: a + 10
+print(x(5))
+
+####
+15
+```
+
+#### Date Time
+```
+import datetime
+
+x = datetime.datetime(2020, 5, 17)
+
+print(x)
+
+```
+
+
