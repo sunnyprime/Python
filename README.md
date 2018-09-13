@@ -33,7 +33,7 @@ Welcome  prime
 'is prime'
 ```
 
-#### List
+#### List[]
 ```
 >>> list=['Phy','Chem',1999,2000]
 >>> list
@@ -48,7 +48,7 @@ Welcome  prime
 ['Phy', 'Chem', 2000]
 ```
 
-#### Tuple
+#### Tuple()
 > Tupple are immutable(Cannot be deleted or edited).But we can add two tupples.
 
 ```
@@ -61,4 +61,27 @@ Welcome  prime
 >>> tup3=tup1+tup2
 >>> tup3
 ('phy', 'chem', 'bio', 1997, 2000, 'Prime', 'India')
+```
+#### Dictonary{}
+```
+>>> dict={'Name':'Prime','Age':7,'Class':'First'}
+>>> dict
+{'Name': 'Prime', 'Age': 7, 'Class': 'First'}
+>>> dict['Name']
+'Prime'
+>>> dict['Age']
+7
+```
+#### Set{}
+> In set Repation has been ignored.
+
+```
+>>> set={1,2,3,"Prime"}
+>>> set
+{1, 2, 3, 'Prime'}
+
+
+>>> set={1,1,2,3,2,5,6,8,6,}
+>>> set
+{1, 2, 3, 5, 6, 8}
 ```
