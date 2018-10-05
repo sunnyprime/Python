@@ -6,6 +6,7 @@
 
 | CODE | PROPERTY |
 | :---: | :---: |
+| from module import function| from the module imported the function |
 | import os | imort the directory |
 | os.listdir() | show list of os directory |
 | dir(os) | shows the directory of os |
@@ -16,7 +17,9 @@
 
 | METHOD | METHOD'S FUNCTION | EXAMPLE |
 | :---: | :--- | :---: |
-| .lower() | Convert all string to lower |
+| .lower() | Convert all string to lower | >>> First_name.lower() |
+| .isalpha() | sure that it only contains letters | if len(original) > 0 and original.isalpha(): |
+
 
 
 
@@ -175,6 +178,16 @@ print(x(5))
 
 ####
 15
+```
+
+#### Function Calling Function
+
+```
+def fun_one(n):
+  return n * 5
+
+def fun_two(m):
+  return fun_one(m) + 7
 ```
 
 #### Date Time
