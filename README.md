@@ -12,6 +12,13 @@
 | os.__dir__ | shows the directory of files
 | help(glob2) | show the help of package |
 
+### Method:-
+
+| METHOD | METHOD'S FUNCTION | EXAMPLE |
+| :---: | :--- | :---: |
+| .lower() | Convert all string to lower |
+
+
 
 #### Output
 
@@ -40,6 +47,11 @@ Welcome  prime
 'This '
 >>> a[5:]
 'is prime'
+
+First_name="Sunny"
+Last_name="Prime"
+print(First_name +" "+ Last_name)
+'Sunny Prime'
 ```
 
 #### List[]
