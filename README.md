@@ -19,6 +19,7 @@
 | :---: | :--- | :---: |
 | .lower() | Convert all string to lower | >>> First_name.lower() |
 | .isalpha() | sure that it only contains letters | if len(original) > 0 and original.isalpha(): |
+| break | used for break the loop| |
 
 
 
