@@ -72,6 +72,16 @@ print(First_name +" "+ Last_name)
 >>> list
 ['Phy', 'Chem', 2000]
 ```
+##### fruits = ["apple","banana","cherry"]    
+
+
+| Description | Method |
+| :---: | :---: |
+| Display | fruits[1] |
+| Replace |  fruits[0]="kiwi" |
+| Append |  fruits.append("Orang") |
+| Selected Insert | fruits.insert(1, "lemon") |
+| Remove | fruits.remove("banana") |
 
 #### Tuple()
 > Tupple are immutable(Cannot be deleted or edited).But we can add two tupples.
@@ -87,6 +97,11 @@ print(First_name +" "+ Last_name)
 >>> tup3
 ('phy', 'chem', 'bio', 1997, 2000, 'Prime', 'India')
 ```
+| Description | Method |
+| :---: | :---: |
+| selected item | fruit[0] |
+| length of tuple | len(fruits) |
+
 #### Dictonary{}
 ```
 >>> dict={'Name':'Prime','Age':7,'Class':'First'}
@@ -97,6 +112,16 @@ print(First_name +" "+ Last_name)
 >>> dict['Age']
 7
 ```
+##### car { "brand":"ford" , "model" : "Mustang" , "year" : 1946 }
+
+| Description | Method |
+| :---: | :---: |
+| getting selected | car.get("model") |
+| changing the value | car["year"] |
+| Adding the value | car["color"] = "red" |
+| Removing the value | car.pop("model") |
+| clearing the entry | car.clear() |
+
 #### Set{}
 > In set Repation has been ignored.
 
@@ -110,6 +135,15 @@ print(First_name +" "+ Last_name)
 >>> set
 {1, 2, 3, 5, 6, 8}
 ```
+##### fruits = {"apple" , "banana" , "cherry" }
+
+| Description | Method |
+| :---: | :---: |
+| if present in | if("apple" in "fruits"): |
+|  Adding | fruits.add("orange") |
+| Update | fruits.update(more_fruits) |
+| Remove | fruits.remove("banana") |
+| discard | |fruits.discard("banana") |
 
 #### Condition
 
