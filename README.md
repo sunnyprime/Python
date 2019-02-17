@@ -143,7 +143,7 @@ print(First_name +" "+ Last_name)
 |  Adding | fruits.add("orange") |
 | Update | fruits.update(more_fruits) |
 | Remove | fruits.remove("banana") |
-| discard | |fruits.discard("banana") |
+| discard | fruits.discard("banana") |
 
 #### Condition
 
